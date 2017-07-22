@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
     <head>
         <meta charset="UTF-8">
         <title>Portal de Notícias do Odorico</title>
@@ -70,7 +70,7 @@
                 <div class="w3-third w3-hide-medium w3-hide-small w3-sidebar w3-light-grey">
                     <div class="w3-white w3-text-grey w3-card-4">
                         <div class="w3-display-container">
-                            <img src="/portal/images/odorico.jpg" alt="Imagem do Odorico Paraguaçú" style="width:100%" alt="Avatar">
+                            <img src="/portal/images/odorico.jpg" alt="Imagem do Odorico Paraguaçú" style="width:100%">
                         </div>
                         <div class="w3-container">
                             <h4><b>Odorico Paraguaçú</b></h4>
@@ -111,7 +111,7 @@
                             <?php echo form_open( 'inelegibilidade/consulta' ) ?>
                                 <p><label for="name">Nome do candidato:</label><br>
                                     <input class="w3-input w3-padding-16" type="text" name="name" id="name" tabindex="1"/></p>
-                                <p><label for="CPF">CPF do candidato:</label><br>
+                                <p><label for="cpf">CPF do candidato:</label><br>
                                     <input class="w3-input w3-padding-16" id="cpf" type="text" name="cpf" tabindex="2"/></p>
                                 <p>
                                     <button class="w3-button w3-light-grey w3-padding-large" type="submit">
